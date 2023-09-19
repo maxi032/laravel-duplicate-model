@@ -1,9 +1,7 @@
 <?php
 
-namespace Maxi032\LaravelAdminPackage;
+namespace Maxi032\LaravelDuplicateModel;
 
-
-use Illuminate\Database\ConnectionInterface;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelDuplicateModelServiceProvider extends ServiceProvider
