@@ -1,0 +1,36 @@
+{
+    "name": "maxi032/laraveladminpackage",
+    "description": "Laravel admin package",
+    "require": {
+        "php": "^8.1",
+        "illuminate/database": "^9.0|^10.0",
+        "illuminate/support": "^9.0|^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maxi032\\LaravelDuplicateModel\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maxi032\\LaravelDuplicateModel\\LaravelDuplicateModelServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "authors": [
+        {
+            "name": "Bogdan Comarniceanu",
+            "email": "maxxyro@yahoo.com"
+        }
+    ],
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "2.13.x-dev"
+    }
+}
